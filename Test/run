@@ -1,0 +1,7 @@
+#! /usr/bin/env nix-shell
+#! nix-shell --pure -i bash ../shell.nix
+
+fsharpi --quiet --exec test.fs
+ocaml test.ml
+runghc test.hs
+sml <test.sml

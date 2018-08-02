@@ -1,0 +1,70 @@
+All
+
+fxn declaration:
+ _ fn_name arg1 arg2 ... = _ eol_symbol
+Currying
+have different syntax for regular v anonymous fxns
+only sml and haskell have composition operator
+Haskell: foldl, others: List.foldl <-- bc of typeclasses again
+
+SML
+
+declarations with val
+end of line -- ;
+list delimited with commas
+list concat -- ::
+has autoloading for missing package
+Fxn paren args
+val fxn
+calls floats reals
+fun <-- named function
+fn <-- anonymous fxn
+double o double <- quadruple
+Recursion -- just call regularly
+
+Ocaml
+
+declarations with let
+end of line -- ;;
+list delimited with semicolons
+list concat -- ::
+List already imported 
+Lisp fxn syntax
+let fxn
+named paramter with ~, and default values with ?(arg=val)
+operators have dot afterwards (eg +.)
+has many different syntaxes for function (let, let rec, fun, let _ = function )
+let <-- reg fxn
+let rec <-- recursive fxn
+fun <-- anony
+let _ = function _ <-- piecewise fxn
+Has much more fxnality to do with errors and exceptions than others
+Has mutual recursion with 'and' after let rec
+
+F#
+
+declarations with let
+end of line -- ;;
+list delimited with semicolons
+list concat -- ::
+List already imported
+Lisp fxn syntax
+let fxn
+
+
+Haskell
+
+declarations with let or nothing
+end of line -- ; or nothing
+list delimited with commas
+list concat -- :
+List operations in Prelude
+List index -- [1,2,3] !! 0
+Lisp fxn syntax (unless made to be infix)
+no prefix word in fxn declaration
+int to float coersion
+Typeclasses are really nice
+ allow code to look like dynamically typed
+double . double <- quadruple
+use do for sequencing
+piecewise fxns can be defined in separate statements, but not in interpreter
