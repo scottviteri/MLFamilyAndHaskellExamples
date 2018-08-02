@@ -8,4 +8,4 @@ Then only necessary dependency here is the nix package manager, which can be ins
 
 There are two directories of examples: ./Test and ./Factorial. Each can be run by cd'ing into the directory and running the ./run executable.
 
-
+I have some surface level comparisons in ./notes.txt.
